@@ -33,7 +33,7 @@
   {% endfor %}
 
   <!-- Local Projects -->
-  {% assign items = site.projects | sort: 'date'  | reverse %}
+  {% assign items = site.projects | sort: 'date'  %}
   {% for project in items %}
 
     {%- assign project_type  = "local" -%}
